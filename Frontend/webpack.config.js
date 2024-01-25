@@ -8,8 +8,6 @@ module.exports = {
   },
   devServer: {
     static: path.resolve(__dirname, 'public'),
-    "port":8080,
-    "hot":true,
   },
   module: {
     rules: [
@@ -27,7 +25,13 @@ module.exports = {
           { loader: 'style-loader' },
           { loader: 'css-loader' },
         ]
-      }
+      },
+      {
+        test: /.*\.(gif|png|jpe?g)$/i,
+        use: {
+          loader: 'file-loader',
+        }
+      },
     ],
   },
 };
