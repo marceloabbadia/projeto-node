@@ -30,5 +30,8 @@ Fique à vontade para contribuir para este projeto. Siga estas etapas:
 4. Faça as alterações desejadas e commit: `git commit -m 'Adiciona nova feature'`
 5. Push para o seu fork: `git push origin feature/nova-feature`
 6. Abra um pull request.
+  
+<img width="1512" alt="projeto-node" src="https://github.com/marceloabbadia/projeto-node/assets/112344339/061bc449-e837-4998-a9f8-b4002e8a7039">
+
 
 
