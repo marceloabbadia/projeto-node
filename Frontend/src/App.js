@@ -7,7 +7,6 @@ function App() {
 
     const [projects, setProjects] = useState([])
 
-
     useEffect(() => {
         api.get('projects')
             .then(response => {
